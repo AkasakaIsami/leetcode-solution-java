@@ -7,7 +7,7 @@
 
 ​	我的解法，最开始考虑用暴力（时间复杂度O(n<sup>2</sup>)），之后觉得应该用点高级的办法，至少一次遍历就能把问题解决吧！翻了翻答案发现可以用栈（我最开始也想用，在寻思能不能用两个栈来做点东西，之后发现不太行，今天又挺忙的，就直接看答案了）。
 
-​	题目很简单，一会儿就做完了。经过今天和昨天（寻找回文子串https://github.com/AkasakaIsami/leetcode-solution-java/tree/main/0005-longest-palindromic-substring）的题目，我思考栈是不是对于成对的题目（比如成对的括号“({})”、回文字符串“level、lel”）都很适合，但是回头一想又觉得：
+​	题目很简单，一会儿就做完了。经过今天和昨天（寻找回文子串 https://github.com/AkasakaIsami/leetcode-solution-java/tree/main/0005-longest-palindromic-substring ）的题目，我思考栈是不是对于成对的题目（比如成对的括号“({})”、回文字符串“level、lel”）都很适合，但是回头一想又觉得：
 
 > 可以思考一下有没有必要用栈这个结构，是不是使用两个字符串指针就可以了？
 
