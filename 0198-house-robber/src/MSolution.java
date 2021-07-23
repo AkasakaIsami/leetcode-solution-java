@@ -6,8 +6,10 @@
 public class MSolution {
     public static int rob(int[] nums) {
         int len = nums.length;
+        // Array that store the past result that would be reused
         int[] results = new int[len];
 
+        // Caculate from small to large
         for (int i = 0; i < len; i++) {
             int j = len - i - 1;
 
@@ -19,6 +21,7 @@ public class MSolution {
                 continue;
             }
 
+            // State-transition equation：f(n)=max(f(n-1),nums[n]+f(n-2))
             results[j] = Math.max(results[j + 1], results[j + 2] + nums[j]);
         }
 
