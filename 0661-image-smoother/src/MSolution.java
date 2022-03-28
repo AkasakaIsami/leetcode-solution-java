@@ -1,5 +1,5 @@
 /**
- * Created on 2022/3/25 8:16 PM.
+ * Created on 2022/3/26 6:59 PM.
  *
  * @author akasakaisami
  */
@@ -33,12 +33,6 @@ public class MSolution {
             }
 
         return result;
-    }
-
-    public static void main(String[] args) {
-        MSolution m = new MSolution();
-        int[][] res=m.imageSmoother(new int[][]{{100, 200, 100}, {200, 50, 200}, {100, 200, 100}});
-        System.out.println(res);
     }
 
 }
