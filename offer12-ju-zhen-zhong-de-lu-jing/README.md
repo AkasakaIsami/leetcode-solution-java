@@ -11,3 +11,9 @@
 ## My Solution
 
 剪枝+dfs
+
+优化方案是
+
+- 全局计算两个维度长度
+- 不是记录的状态，直接把当前board ij设成0
+- string的访问改成char[]
