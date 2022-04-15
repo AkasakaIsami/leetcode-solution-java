@@ -1,4 +1,4 @@
-# Offer 15. 二进制中1的个数
+# Offer 16. 数值的整数次方
 - 网址：https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/
 
 - 日期：2022.04.15
