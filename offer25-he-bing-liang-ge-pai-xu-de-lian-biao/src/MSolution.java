@@ -22,8 +22,7 @@ public class MSolution {
 
         if (l1 == null)
             curr.next = l2;
-        else if (l2 == null)
-            curr.next = l1;
+        else curr.next = l1;
 
         return dummy.next;
     }
