@@ -29,7 +29,7 @@ public class MSolution {
                     stack.pop();
                     p2++;
                 } else {
-                    // 不一致的话，向后移动p1并推入栈
+                    // 不一致的话，p1当前值推入栈，p1再向后移动
                     stack.push(pushed[p1]);
                     p1++;
                 }
