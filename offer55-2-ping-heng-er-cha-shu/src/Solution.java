@@ -18,6 +18,8 @@ public class Solution {
      * 递归遍历 可以这样遍历结束了 时间复杂度不应该很垃圾吗
      * 找到使得flag为false的情况马上break不好吗
      *
+     * 官方题解用-1来做剪枝 用flag没法剪
+     *
      * @param root 当前树根节点
      * @return 当前树深度
      */
