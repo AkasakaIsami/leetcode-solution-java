@@ -6,6 +6,7 @@
  */
 public class Solution {
     public int[] singleNumbers(int[] nums) {
-
+        System.out.println();
+        return null;
     }
 }
